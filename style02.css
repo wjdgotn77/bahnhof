@@ -134,6 +134,6 @@ body{
 .main_photo{
     flex-direction: column;
     justify-content:center;
-    width:100%;
+    width:100vh;
 }
 }
