@@ -38,9 +38,6 @@ body{
     color: var(--text-color);
 }
 
-
-
-
 .navbar_menu :hover{
     color:red;
 }
@@ -67,17 +64,49 @@ body{
 
 }
 
-
 .copyright{
     background-color: var(--background-color);
     color:gray;
-    font-size:14px;
+    font-size:12px;
     text-align:justify;
     padding:24px;
 }
-
 .copyright a{
     text-decoration:none;
     color:black;
 }
 
+@media screen and (max-width:786px){
+
+.navbar{
+    display:flex;
+    flex-direction:column;
+}
+
+.navbar_menu a{
+    font-size:18px;
+}
+
+.main_paragraph{
+    display:flex;
+    justify-content: center;
+    font-size:14px;
+}
+.main_photo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_photo img{
+    width:100%;
+    padding:0;
+    margin-bottom:5px;
+}
+
+.copyright{ 
+    display:block;
+    text-align:justify;
+    font-size:12px;
+}
+}
