@@ -87,7 +87,7 @@ body{
     padding: 30px;
 }
 
-.main_paragraph02{
+.main_paragraph02 img{
     dislay:flex;
     padding:24px;
     color:var(--text-color);
@@ -135,7 +135,4 @@ body{
     width:50%;
 }
 
-.main_photo01,.main_photo02, .main_photo03{
-    width:250px;
-}
 }
