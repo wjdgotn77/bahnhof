@@ -56,7 +56,6 @@ body{
 }
 
 .main_photo{
-    height: 100 vh;
     display:flex;
     padding:24px;
     flex-direction: row;
@@ -134,5 +133,9 @@ body{
     flex-direction: column;
     justify-content:center;
     width:50%;
+}
+
+.main_photo01,.main_photo02, .main_photo03{
+    width:250px;
 }
 }
