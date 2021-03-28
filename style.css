@@ -20,8 +20,8 @@ body{
 }
 
 .navbar_logo {
-    font-size:30px;
-    text-decoratiton: underline;
+    font-size:50px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .navbar_menu{
@@ -32,7 +32,7 @@ body{
 
 .navbar_menu a{
     text-decoration: none;
-    font-style: italic;
+    font-family: 'Playfair Display', serif;
     font-size: 24px;
     padding: 24px;
     color: var(--text-color);
@@ -45,7 +45,8 @@ body{
 .main_paragraph{
     background-color: var(--background-color);
     padding:24px;
-    font-size: 18px;
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .main_photo{
